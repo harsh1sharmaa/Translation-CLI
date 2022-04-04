@@ -1,0 +1,43 @@
+[2022-04-04T06:24:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:24:19+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:24:19+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:24:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:24:23+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:24:23+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:24:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:24:44+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:24:44+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:24:44+00:00][error] INSERT INTO `roles` (`role`, `component`, `action`, `name`, `password`, `token`) VALUES (?, DEFAULT, DEFAULT, ?, ?, ?)
+[2022-04-04T06:25:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:16+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:16+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:17+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:17+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:20+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:20+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:21+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:21+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:21+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:21+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:23+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:23+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:47+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:47+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:25:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:25:58+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:25:58+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:26:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:26:00+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:26:00+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:49:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:49:57+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:49:57+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`
+[2022-04-04T06:54:22+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-04-04T06:54:22+00:00][error] SHOW FULL COLUMNS FROM `roles`
+[2022-04-04T06:54:22+00:00][error] SELECT `roles`.`id`, `roles`.`role`, `roles`.`component`, `roles`.`action`, `roles`.`name`, `roles`.`password`, `roles`.`token` FROM `roles`

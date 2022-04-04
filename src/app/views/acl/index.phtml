@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class='container mt-5'>
+
+<form method="get" action="">
+
+<label for="language"> language</label>
+<select name="locale" id="color">
+
+    <?php
+
+    $language=$controllers['language'];
+  
+
+    $str = "";
+
+    for ($i = 0; $i < count($language); $i++) {
+
+        $str .= '<option value="' . $language[$i] . '">' . $language[$i] . '</option>';
+    }
+
+    echo $str
+
+    ?>
+
+</select>
+
+<input type="hidden" name="role" value="<?php echo $this->request->getQuery('role') ?>">
+<input type="submit" name="submit" value="select" >
+
+</form>
+
+  
+
+    <h1>
+        <?php echo $this->locale->_("hi") ?>
+    </h1>
+    <h1>
+        <?php echo $this->locale->_("Contacts") ?>
+    </h1>
+    <div>
+        <form method="post" action="">
+
+            <label for="products"><?php echo $this->locale->_('controller')?></label>
+            <select name="controller" id="color">
+
+                <?php
+                $controller = $controllers['controller'];
+
+                $str = "";
+
+                for ($i = 0; $i < count($controller); $i++) {
+
+                    $str .= '<option value="' . $controller[$i] . '">' . $controller[$i] . '</option>';
+                }
+
+                echo $str
+
+                ?>
+
+            </select>
+
+            <input type="submit" name="conroller" value="select">
+
+
+        </form>
+    </div>
+
+    <?php
+    if ($this->request->getPost("controller")) {
+
+
+
+
+
+    ?>
+
+        <div>
+            <form method="post" action="/acl/allow?role=<?php echo $this->request->getQuery("role") ?>">
+                <label for="products"> <?php echo $this->locale->_('role')?></label>
+                <select name="role" id="color">
+
+                    <?php
+
+                    $action = $controllers['roles'];
+
+                    // echo $action[0];
+
+                    $str = "";
+
+                    for ($i = 0; $i < count($action); $i++) {
+
+                        $str .= '<option value="' . $action[$i]->role . '">' . $action[$i]->role . '</option>';
+                    }
+
+                    echo $str
+
+                    ?>
+
+                </select>
+
+
+
+                <label for="products"> <?php echo $this->locale->_('action')?></label>
+                <select name="action" id="color">
+
+                    <?php
+                    $action = $controllers['action'];
+
+                    // echo $action;
+
+                    $str = "";
+
+                    for ($i = 0; $i < count($action); $i++) {
+                        $str .= '<option value="' . $action[$i] . '">' . $action[$i] . '</option>';
+                    }
+                    echo $str; ?>
+
+                </select>
+
+                <input type="submit" name="submit" value="save">
+                <input type="submit" name="submit" value="deny">
+
+                <input type="hidden" name="conroller" value=<?php echo $controllers['selectedcontroller']; ?>>
+
+
+            </form>
+
+            <h3><?php echo $this->locale->_('selected controller')?> :  <?php echo $controllers['selectedcontroller']; ?> </h3>
+            
+        </div>
+    <?php } ?>
+
+    <a href="/acl/addrole?locale=<?php echo $this->request->getQuery('locale')?>&role=<?php echo $this->request->getQuery('role')?>"><?php echo $this->locale->_('addrole')?></a>
+    <a href="/acl/adduser?locale=<?php echo $this->request->getQuery('locale')?>&role=<?php echo $this->request->getQuery('role')?>"><?php echo $this->locale->_('add User')?></a>
+   
+    <!-- <a href="/acl/adduser?role=admin">add User</a> -->
+
+
+</body>
+<SCRipt>
+
+
+
+</SCRipt>
+
+</html>

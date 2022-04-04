@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <h1>hellofgfdgds</h1> -->
+  <!-- <?php print_r($message); ?> -->
+  <form method="get" action="">
+
+<label for="language"> language</label>
+<select name="locale" id="color">
+
+    <?php
+  
+
+    $str = "";
+
+    for ($i = 0; $i < count($message); $i++) {
+
+        $str .= '<option value="' . $message[$i] . '">' . $message[$i] . '</option>';
+    }
+
+    echo $str
+
+    ?>
+
+</select>
+
+<input type="hidden" name="role" value="<?php echo $this->request->getQuery('role') ?>">
+<input type="submit" name="submit" value="select" >
+
+</form>
+
+
+
+
+  <form method="post" action="loginuser?role=<?php echo $this->request->getQuery('role') ?>">
+    <?php echo $this->locale->_("email") ?>
+    <input type="text" name="email">
+    <?php echo $this->locale->_("password") ?>
+    <input type="text" name="password">
+    <input type="submit" name="submit" value="Submit">
+  </form>
+
+
+
+ 
+
+</body>
+
+</html>
